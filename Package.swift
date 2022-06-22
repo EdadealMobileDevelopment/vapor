@@ -24,7 +24,7 @@ let package = Package(
         .package(url: "https://github.com/vapor/console-kit.git", from: "4.0.0"),
 
         // 🚍 High-performance trie-node router.
-        .package(url: "https://github.com/vapor/routing-kit.git", from: "4.0.0"),
+        .package(url: "https://github.com/EdadealMobileDevelopment/routing-kit.git", from: "4.5.1"),
 
         // 💥 Backtraces for Swift on Linux
         .package(url: "https://github.com/swift-server/swift-backtrace.git", from: "1.1.1"),
