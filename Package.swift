@@ -18,13 +18,13 @@ let package = Package(
         .package(url: "https://github.com/swift-server/async-http-client.git", from: "1.10.0"),
 
         // Sugary extensions for the SwiftNIO library
-        .package(url: "https://github.com/EdadealMobileDevelopment/async-kit.git", from: "1.12.1"),
+        .package(url: "https://github.com/vapor/async-kit.git", from: "1.12.1"),
 
         // 💻 APIs for creating interactive CLI tools.
         .package(url: "https://github.com/vapor/console-kit.git", from: "4.0.0"),
 
         // 🚍 High-performance trie-node router.
-        .package(url: "https://github.com/EdadealMobileDevelopment/routing-kit.git", from: "4.5.1"),
+        .package(url: "https://github.com/vapor/routing-kit.git", from: "4.5.1"),
 
         // 💥 Backtraces for Swift on Linux
         .package(url: "https://github.com/swift-server/swift-backtrace.git", from: "1.1.1"),
@@ -48,7 +48,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-metrics.git", from: "2.0.0"),
 
         // WebSocket client library built on SwiftNIO
-        .package(url: "https://github.com/EdadealMobileDevelopment/websocket-kit.git", from: "2.4.2"),
+        .package(url: "https://github.com/vapor/websocket-kit.git", from: "2.4.2"),
         
         // MultipartKit, Multipart encoding and decoding
         .package(url: "https://github.com/vapor/multipart-kit.git", from: "4.2.1"),
