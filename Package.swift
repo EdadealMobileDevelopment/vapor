@@ -33,7 +33,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-nio.git", from: "2.33.0"),
         
         // Bindings to OpenSSL-compatible libraries for TLS support in SwiftNIO
-        .package(url: "https://github.com/EdadealMobileDevelopment/swift-nio-ssl.git", from: "2.20.1"),
+        .package(url: "https://github.com/makleso6/swift-nio-ssl.git", from: "2.20.1"),
         
         // HTTP/2 support for SwiftNIO
         .package(url: "https://github.com/apple/swift-nio-http2.git", from: "1.20.0"),
